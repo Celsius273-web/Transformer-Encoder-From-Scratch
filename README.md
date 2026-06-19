@@ -1,6 +1,6 @@
 # Transformer Encoder From Scratch (Pure NumPy)
 
-This deep learning project that implement a standard Transformer Encoder block using pure NumPy. To prove structural and mathematical correctness, the matrix operations, activation boundaries, and layer normalization parameters were mapped against PyTorch's `TransformerEncoderLayer` using independent cross validation tracking.
+This deep learning project that implement a standard Transformer Encoder block using pure NumPy. To prove correctness in the the matrix operations, activation boundaries, and layer normalization parameters were validated independantly against PyTorch's `TransformerEncoderLayer` with a resulting 0.000000383 MAE.
 
 [View Live Notebook Output](https://htmlpreview.github.io/?https://github.com/Celsius273-web/Transformer-Encoder-From-Scratch/blob/main/notebook/test_encoder_block.html)
 
